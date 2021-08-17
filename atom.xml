@@ -42,27 +42,4 @@
     
   </entry>
   
-  <entry>
-    <title>给小瑾看的</title>
-    <link href="http://example.com/2021/08/17/%E7%BB%99%E5%B0%8F%E7%91%BE%E7%9C%8B%E7%9A%84/"/>
-    <id>http://example.com/2021/08/17/%E7%BB%99%E5%B0%8F%E7%91%BE%E7%9C%8B%E7%9A%84/</id>
-    <published>2021-08-17T00:50:01.000Z</published>
-    <updated>2021-08-17T00:52:06.132Z</updated>
-    
-    <content type="html"><![CDATA[<p>夸我</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;夸我&lt;/p&gt;
-</summary>
-      
-    
-    
-    
-    
-    <category term="test" scheme="http://example.com/tags/test/"/>
-    
-  </entry>
-  
 </feed>
