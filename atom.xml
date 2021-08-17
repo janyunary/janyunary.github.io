@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-08-17T00:52:06.132Z</updated>
+  <updated>2021-08-17T01:18:38.973Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>some面经</title>
+    <link href="http://example.com/2021/08/17/some%E9%9D%A2%E7%BB%8F/"/>
+    <id>http://example.com/2021/08/17/some%E9%9D%A2%E7%BB%8F/</id>
+    <published>2021-08-17T01:18:18.000Z</published>
+    <updated>2021-08-17T01:18:38.973Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="面经"><a href="#面经" class="headerlink" title="面经"></a>面经</h1><ol><li>Mysql b树和b+树有什么区别<ul><li>索引的区别和原理 b+树           会手写</li></ul></li><li>Jvm 垃圾处理<ul><li>标记清除标记整理</li><li>引用计数和可达性分析法</li><li>年轻代和老年代</li><li>强引用软饮用弱引用虚引用</li><li>java8用的哪个垃圾收集器</li><li>垃圾回收和内存分配</li></ul></li><li>Java hashmap源码</li><li>多线程 介绍一下锁，以及java怎么保证线程安全</li><li>操作系统 介绍下虚拟内存和物理内存</li><li>计网，介绍一下三次握手 和http和https的区别</li><li>jdk7到8做了什么改变   存储一个进去他做了什么</li><li>线程池的七个参数</li><li>有几种线程池，区别是啥</li><li>volatile</li><li>Java内存模型</li><li>会问1.8的新特性有哪些</li><li>三种懒汉式单例模式</li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;面经&quot;&gt;&lt;a href=&quot;#面经&quot; class=&quot;headerlink&quot; title=&quot;面经&quot;&gt;&lt;/a&gt;面经&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;Mysql b树和b+树有什么区别&lt;ul&gt;
+&lt;li&gt;索引的区别和原理 b+树           会手写&lt;/li&gt;
+&lt;/ul&gt;
+</summary>
+      
+    
+    
+    
+    
+    <category term="职场" scheme="http://example.com/tags/%E8%81%8C%E5%9C%BA/"/>
+    
+  </entry>
   
   <entry>
     <title>给小瑾看的</title>
@@ -36,19 +62,6 @@
     
     
     <category term="test" scheme="http://example.com/tags/test/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>My New Post</title>
-    <link href="http://example.com/2021/08/17/My-New-Post/"/>
-    <id>http://example.com/2021/08/17/My-New-Post/</id>
-    <published>2021-08-17T00:21:25.000Z</published>
-    <updated>2021-08-17T00:21:25.891Z</updated>
-    
-    
-    
-    
     
   </entry>
   
