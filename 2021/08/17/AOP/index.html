@@ -186,7 +186,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      859 字
+      1.1k 字
     </span>
   
 
@@ -196,7 +196,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      10
+      13
        分钟
     </span>
   
@@ -276,11 +276,36 @@
 <p>如果看官有需要  可以借助字节输出流查看字节码文件</p>
 <figure class="highlight reasonml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs reasonml">byte<span class="hljs-literal">[]</span> <span class="hljs-built_in">bytes</span> = <span class="hljs-module-access"><span class="hljs-module"><span class="hljs-identifier">ProxyGenerator</span>.</span></span>generate<span class="hljs-constructor">ProxyClass(<span class="hljs-string">&quot;$Proxy0&quot;</span>,<span class="hljs-params">new</span> Class[]&#123;Rent.<span class="hljs-params">class</span>&#125;)</span>;<br><span class="hljs-keyword">try</span>(<br>    FileOutputStream fos = <span class="hljs-keyword">new</span> <span class="hljs-constructor">FileOutputStream(<span class="hljs-string">&quot;d:\\$Proxy0.class&quot;</span>)</span><br>)&#123;<br>   fos.write(<span class="hljs-built_in">bytes</span>);<br>   fos.flush<span class="hljs-literal">()</span>;<br>&#125;catch(Exception e)&#123;<br>   e.printStackTrace;<br>&#125;<br></code></pre></td></tr></table></figure>
 
+<h2 id="2-5-AOP-面向切面编程"><a href="#2-5-AOP-面向切面编程" class="headerlink" title="2.5 AOP 面向切面编程"></a>2.5 AOP 面向切面编程</h2><ul>
+<li><p>通知（Advice）：指代非核心业务，如日志、安全等。需提前定义好，在想用的地方进行使用。</p>
+</li>
+<li><p>连接点（JoinPoint）：Spring允许使用通知的地方。每个方法的前后或异常抛出的位置，都可以当作是连接点。可以在这些位置通过代理添加通知。Aspect甚至可以在创建bean实例和属性注入的时候添加通知。</p>
+</li>
+<li><p>切入点（PointCut）：切入点用来对连接点进行筛选，选中想添加通知的连接点。</p>
+</li>
+<li><p>切面：通知和切入点的结合。通知说明了工作的内容，工作的时间；切入点说明了工作的位置。完成这一工作的行为就是一个切面。</p>
+</li>
+<li><p>目标：代表需要被通知的对象（被代理），即核心业务。</p>
+</li>
+<li><p>引入：把定义的切面，添加到目标上的过程称为引入。</p>
+</li>
+<li><p>代理：AOP机制中实现功能所需要的代理模式。</p>
+</li>
+<li><p>织入：把切面应用到目标对象来创建新的代理对象的过程。</p>
+</li>
+</ul>
 
             </div>
             <hr>
             <div>
               <div class="post-metas mb-3">
+                
+                  <div class="post-meta mr-3">
+                    <i class="iconfont icon-category"></i>
+                    
+                      <a class="hover-with-bg" href="/categories/java/">java</a>
+                    
+                  </div>
                 
                 
                   <div class="post-meta">
