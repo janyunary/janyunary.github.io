@@ -4,13 +4,25 @@
   
   
   <entry>
-    <title></title>
-    <link href="/2022/02/15/%E5%88%9B%E5%BB%BASpringBoot%E9%A1%B9%E7%9B%AE/"/>
-    <url>/2022/02/15/%E5%88%9B%E5%BB%BASpringBoot%E9%A1%B9%E7%9B%AE/</url>
+    <title>创建springboot项目</title>
+    <link href="/2022/02/16/%E5%88%9B%E5%BB%BAspringboot%E9%A1%B9%E7%9B%AE/"/>
+    <url>/2022/02/16/%E5%88%9B%E5%BB%BAspringboot%E9%A1%B9%E7%9B%AE/</url>
     
-    <content type="html"><![CDATA[<figure class="highlight subunit"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs subunit">title: 创建SpringBoot项目<br>date: 2022<span class="hljs-string">-02</span><span class="hljs-string">-15</span> 21:04:02<br><span class="hljs-keyword">tags:</span> springboot<br>category: java<br></code></pre></td></tr></table></figure><h3 id="新建模板"><a href="#新建模板" class="headerlink" title="新建模板"></a>新建模板</h3><p>选择Spring Initializr<br>Service URL 选择</p><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs awk">https:<span class="hljs-regexp">//</span>start.spring.io<br></code></pre></td></tr></table></figure><p>点击next</p><h3 id="Project-Metadata"><a href="#Project-Metadata" class="headerlink" title="Project Metadata"></a>Project Metadata</h3><p>根据项目的实际情况填写项目信息</p><p>点击next</p><h3 id="选择依赖"><a href="#选择依赖" class="headerlink" title="选择依赖"></a>选择依赖</h3><p>选择springboot版本</p><p>根据需要选择依赖</p><p>点击下一步</p><h3 id="完成"><a href="#完成" class="headerlink" title="完成"></a>完成</h3><p>确定项目名称<br>选择保存路径等<br>点击finish</p><p>一个springboot项目创建完成</p>]]></content>
+    <content type="html"><![CDATA[<h3 id="新建模板"><a href="#新建模板" class="headerlink" title="新建模板"></a>新建模板</h3><p>选择Spring Initializr<br>Service URL 选择</p><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs awk">https:<span class="hljs-regexp">//</span>start.spring.io<br></code></pre></td></tr></table></figure><p>点击next</p><h3 id="Project-Metadata"><a href="#Project-Metadata" class="headerlink" title="Project Metadata"></a>Project Metadata</h3><p>根据项目的实际情况填写项目信息</p><p>点击next</p><h3 id="选择依赖"><a href="#选择依赖" class="headerlink" title="选择依赖"></a>选择依赖</h3><p>选择springboot版本</p><p>根据需要选择依赖</p><p>点击下一步</p><h3 id="完成"><a href="#完成" class="headerlink" title="完成"></a>完成</h3><p>确定项目名称<br>选择保存路径等<br>点击finish</p><p>一个springboot项目创建完成</p>]]></content>
     
     
+    <categories>
+      
+      <category>java</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>SpringBoot</tag>
+      
+    </tags>
     
   </entry>
   
