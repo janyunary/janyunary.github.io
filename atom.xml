@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-03-30T01:38:59.945Z</updated>
+  <updated>2022-03-30T01:42:24.797Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,15 +21,8 @@
     <link href="http://example.com/2022/03/30/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%BA%8C-%E7%AD%96%E7%95%A5%E6%A8%A1%E5%BC%8F/"/>
     <id>http://example.com/2022/03/30/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%BA%8C-%E7%AD%96%E7%95%A5%E6%A8%A1%E5%BC%8F/</id>
     <published>2022-03-30T01:02:29.000Z</published>
-    <updated>2022-03-30T01:38:59.945Z</updated>
+    <updated>2022-03-30T01:42:24.797Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="/2022/03/30/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%BA%8C-%E7%AD%96%E7%95%A5%E6%A8%A1%E5%BC%8F/MyBlog\source_posts\设计模式二-策略模式\简单工厂UML.png" alt="简单工厂UML"></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&lt;img src=&quot;/2022/03/30/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%BA%8C-%E7%AD%96%E7%95%A5%E6%A8%A1%E5%BC%8F/MyBlog\source_posts\设计模式二-策略模式\简</summary>
-      
     
     
     
