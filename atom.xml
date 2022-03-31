@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-03-31T08:03:19.024Z</updated>
+  <updated>2022-03-31T09:04:12.917Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>设计模式四大原则</title>
+    <link href="http://example.com/2022/03/31/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E5%9B%9B%E5%A4%A7%E5%8E%9F%E5%88%99/"/>
+    <id>http://example.com/2022/03/31/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E5%9B%9B%E5%A4%A7%E5%8E%9F%E5%88%99/</id>
+    <published>2022-03-31T08:06:05.000Z</published>
+    <updated>2022-03-31T09:04:12.917Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="1-单一职责原则"><a href="#1-单一职责原则" class="headerlink" title="1. 单一职责原则"></a>1. 单一职责原则</h2><p><strong>就一个类而言，应该仅有一个引起它变化的原因。</strong></p><p>如果一个类承担的职责过多，就等于把这些职责耦合在一起，一个职责的变化可能回削弱或者抑制这个类完成其它职责的能力。这种强耦合会导致脆弱的设计，当变化发生时，设计会遭受到意向不到的破坏。</p><p>软件真正要做的许多内容，就是发现职责并把那些职责相互分离，如果有多余一个的动机去改变一个类，那么这个类就具有多于一个的职责。</p><h3 id="1-1-单一职责原则优缺点"><a href="#1-1-单一职责原则优缺点" class="headerlink" title="1.1 单一职责原则优缺点"></a>1.1 单一职责原则优缺点</h3><h4 id="1-1-1-优点"><a href="#1-1-1-优点" class="headerlink" title="1.1.1 优点"></a>1.1.1 优点</h4><ol><li>降低类的复杂度。一个类只负责一项职责，其逻辑肯定要比负责多项职责简单得多。</li><li>提高类的可读性。复杂性降低，自然其可读性会提高。</li><li>提高系统的可维护性。可读性提高，那自然更容易维护了。</li><li>变更引起的风险降低。变更是必然的，如果单一职责原则遵守得好，当修改一个功能时，可以显著降低对其他功能的影响。</li></ol><h4 id="1-1-2-缺点"><a href="#1-1-2-缺点" class="headerlink" title="1.1.2 缺点"></a>1.1.2 缺点</h4><ol><li>一个职责的变化可能会削弱或者抑制这个类实现其他职责的能力。</li><li>当客户端需要该对象的某一个职责时，不得不将其他不需要的职责全都包含进来，从而造成冗余代码或代码的浪费。</li></ol><h2 id="2-开放-封闭原则"><a href="#2-开放-封闭原则" class="headerlink" title="2. 开放-封闭原则"></a>2. 开放-封闭原则</h2><p><strong>软件实体（类、模板、函数等等）应该可以扩展</strong></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;1-单一职责原则&quot;&gt;&lt;a href=&quot;#1-单一职责原则&quot; class=&quot;headerlink&quot; title=&quot;1. 单一职责原则&quot;&gt;&lt;/a&gt;1. 单一职责原则&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;就一个类而言，应该仅有一个引起它变化的原因。&lt;/strong&gt;&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="设计模式" scheme="http://example.com/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>设计模式二-策略模式</title>
